@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+*{
+    font-family: "Seymour One", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+.page{
+    border-radius: 5px;
+    width: 300px;
+    height: 230px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
