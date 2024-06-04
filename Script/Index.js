@@ -5,5 +5,5 @@ let answer = document.querySelector('label')
 
 
 caculate.addEventListener('click',()=>{  //this takes the input and multiplies by 60 
-    answer.innerText = ('Result: ' + (eval(`${valueBox.value} * 60`).toFixed(2) +' Seconds'))
+    answer.innerText = ('Answer: ' + (eval(`${valueBox.value} * 60`).toFixed(2) +' Seconds'))
 })
